@@ -1,9 +1,9 @@
 import numpy as np
 from actors.actor import Actor
-from env.env import Env
+from environment.env import Env
 from sklearn.preprocessing import KBinsDiscretizer
 
-from env.cart_pole_env import CartPoleEnv
+from environment.cart_pole_env import CartPoleEnv
 
 
 class CartPoleActor(Actor):
