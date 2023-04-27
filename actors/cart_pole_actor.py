@@ -1,6 +1,5 @@
 import numpy as np
 from actors.actor import Actor
-from environment.env import Env
 from sklearn.preprocessing import KBinsDiscretizer
 
 from environment.cart_pole_env import CartPoleEnv
@@ -28,7 +27,6 @@ class CartPoleActor(Actor):
     def train(self):
         epsilon = 0.05
         episodes = 3000
-        max_steps = 500
         learning_rate = 0.9
         discount = 0.95
 

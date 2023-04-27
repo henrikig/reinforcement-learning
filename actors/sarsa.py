@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 import sys
-import PyQt5
+
 
 from environment.env import Env
 from q_tables.tiled_q_table import TiledQTable

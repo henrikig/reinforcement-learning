@@ -1,5 +1,5 @@
 import numpy as np
-from environment import env, cart_pole_env
+from environment import cart_pole_env
 from actors.sarsa import SARSA
 from q_tables.tiled_q_table import TiledQTable
 import time

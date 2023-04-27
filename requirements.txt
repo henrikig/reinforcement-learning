@@ -1,7 +1,5 @@
 numpy
 scikit-learn
 matplotlib
-PyQt5
 pandas
-tensorflow
 gym
